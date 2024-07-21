@@ -1,0 +1,1 @@
+We use a AGLN125 based FPGA motherboard for controlling. You can use any other one as long as you can provide control signal to the RF board. It does not have any high requirements on the signal itself.

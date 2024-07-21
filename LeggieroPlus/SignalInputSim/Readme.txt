@@ -1,0 +1,1 @@
+You will need Keysight ADS 2024 (or above) to open the .7zads file, the usage information is contained there.
