@@ -55,7 +55,7 @@ always @(posedge clk) begin
     end
 end
 
-always @(posedge clk) begin
+always @(*) begin
     case (status)
         NO_PACKET: begin
             if (dect_in == 1'b1) begin
@@ -96,7 +96,7 @@ always @(posedge clk) begin
     endcase
 end
 
-always @(posedge clk) begin
+always @(*) begin
     if (status == NO_PACKET) begin
         dect_out = 1'b0;
     end else begin
