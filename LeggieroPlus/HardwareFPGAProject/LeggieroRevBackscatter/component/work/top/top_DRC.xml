@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top</header>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port top:ASWSEL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/top:ASWSEL</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port top:LED2</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/top:LED2</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin top:DECT_IN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/top:DECT_IN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>ASWControl_0 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/instances/ASWControl_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ASWControl_0:ASW</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/ASWControl_0:ASW</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>modulator_0 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/instances/modulator_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin modulator_0:EN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/modulator_0:EN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin modulator_0:CLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/modulator_0:CLK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin modulator_0:DEC_IN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/modulator_0:DEC_IN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin modulator_0:D919</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/modulator_0:D919</crossprobe>
+  </drc>
+</drcreport>

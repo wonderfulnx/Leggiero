@@ -1,9 +1,10 @@
 #Microsemi Libero SOC
 
 #ignore miscellaneous files in the following directories
+# `component`directory stores SmartDesign components (SDB and CXF files) for Libero SoC projects, seems shouldn't be gnored.
 simulation/*
 package/*
-component/*
+# component/*
 tooldata/*
 viewdraw/*
 

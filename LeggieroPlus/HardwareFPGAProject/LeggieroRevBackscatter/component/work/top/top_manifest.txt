@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Mon Jul 01 23:30:09 2024
+Project   :  C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter
+Component :  top
+Family    :  IGLOO
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top/top.v
+
