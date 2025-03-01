@@ -1,0 +1,552 @@
+# Sat Aug 31 16:40:25 2024
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@N: MO231 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\key.v":27:0:27:5|Found counter in view:work.Key(verilog) instance g_counter_r[15:0] 
+Encoding state machine status[3:0] (in view: work.Key(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\key.v":27:0:27:5|There are no possible illegal states for state machine status[3:0] (in view: work.Key(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\modulator.v":37:0:37:5|Found counter in view:work.modulator(verilog) instance clk_counter[31:0] 
+@N: MO231 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\pkt_dect.v":48:0:48:5|Found counter in view:work.PKT_DECT(verilog) instance g_counter_r[8:0] 
+Encoding state machine status[2:0] (in view: work.PKT_DECT(verilog))
+original code -> new code
+   00 -> 00
+   10 -> 01
+   11 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 126MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 127MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name        Fanout, notes
+-----------------------------------------------
+modulator_0.clk_counter16 / Y     36           
+===============================================
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 127MB)
+
+Replicating Combinational Instance modulator_0.clk_counter16, fanout 36 segments 2
+
+Added 0 Buffers
+Added 1 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 127MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 82 clock pin(s) of sequential element(s)
+0 instances converted, 82 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ===================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CLKGEN_0.Core       PLL                    82         RFSWControl_0.SWEN     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+Writing Analyst data base C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+@W: MT420 |Found inferred clock CLKGEN|GLA_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:CLKGEN_0.GLA"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Aug 31 16:40:27 2024
+#
+
+
+Top view:               top
+Library name:           IGLOO
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.85, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        IGLOO
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -4.085
+
+                              Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------
+CLKGEN|GLA_inferred_clock     100.0 MHz     71.0 MHz      10.000        14.085        -4.085     inferred     Inferred_clkgroup_0
+=================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------
+CLKGEN|GLA_inferred_clock  CLKGEN|GLA_inferred_clock  |  10.000      -4.085  |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLKGEN|GLA_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                           Arrival           
+Instance                  Reference                     Type     Pin     Net                 Time        Slack 
+                          Clock                                                                                
+---------------------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[6]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[6]      0.885       -4.085
+Key_0.g_counter_r[9]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[9]      0.885       -3.957
+Key_0.g_counter_r[8]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[8]      0.885       -3.913
+Key_1.g_counter_r[6]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[6]      0.885       -3.882
+Key_1.g_counter_r[9]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[9]      0.885       -3.790
+Key_1.g_counter_r[8]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[8]      0.885       -3.746
+Key_0.g_counter_r[15]     CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[15]     0.885       -3.700
+Key_0.g_counter_r[7]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[7]      0.885       -3.623
+Key_1.g_counter_r[0]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[0]      0.885       -3.592
+Key_1.g_counter_r[7]      CLKGEN|GLA_inferred_clock     DFN1     Q       g_counter_r[7]      0.885       -3.456
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                              Required           
+Instance                 Reference                     Type     Pin     Net                    Time         Slack 
+                         Clock                                                                                    
+------------------------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[4]     CLKGEN|GLA_inferred_clock     DFN1     D       g_N_3_mux_6            9.353        -4.085
+Key_0.g_counter_r[5]     CLKGEN|GLA_inferred_clock     DFN1     D       g_N_3_mux_5            9.353        -4.085
+Key_0.g_counter_r[6]     CLKGEN|GLA_inferred_clock     DFN1     D       g_N_3_mux_7            9.353        -4.085
+Key_1.g_counter_r[5]     CLKGEN|GLA_inferred_clock     DFN1     D       N_38                   9.353        -3.882
+Key_1.g_counter_r[7]     CLKGEN|GLA_inferred_clock     DFN1     D       N_34                   9.353        -3.882
+Key_1.g_counter_r[1]     CLKGEN|GLA_inferred_clock     DFN1     D       g_counter_r_RNO[1]     9.353        -3.784
+Key_1.g_counter_r[2]     CLKGEN|GLA_inferred_clock     DFN1     D       g_counter_r_RNO[2]     9.353        -3.784
+Key_1.g_counter_r[3]     CLKGEN|GLA_inferred_clock     DFN1     D       g_counter_r_RNO[3]     9.353        -3.784
+Key_1.g_counter_r[4]     CLKGEN|GLA_inferred_clock     DFN1     D       g_counter_r_RNO[4]     9.353        -3.784
+Key_1.g_counter_r[6]     CLKGEN|GLA_inferred_clock     DFN1     D       g_N_5_mux              9.353        -3.784
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      13.437
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -4.085
+
+    Number of logic level(s):                6
+    Starting point:                          Key_0.g_counter_r[6] / Q
+    Ending point:                            Key_0.g_counter_r[4] / D
+    The start point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                      Type      Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[6]                      DFN1      Q        Out     0.885     0.885       -         
+g_counter_r[6]                            Net       -        -       2.005     -           9         
+Key_0.g_counter_r_RNINHSI[7]              OR2       B        In      -         2.890       -         
+Key_0.g_counter_r_RNINHSI[7]              OR2       Y        Out     0.777     3.667       -         
+status_ns_0_0_o2_2_1[1]                   Net       -        -       0.386     -           1         
+Key_0.g_counter_r_RNII7P51[7]             OR2       A        In      -         4.053       -         
+Key_0.g_counter_r_RNII7P51[7]             OR2       Y        Out     0.610     4.663       -         
+N_236                                     Net       -        -       1.537     -           5         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     A        In      -         6.200       -         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     Y        Out     0.618     6.818       -         
+next_g_counter_r_1_sqmuxa_0_a3_a1_0       Net       -        -       0.969     -           3         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     A        In      -         7.787       -         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     Y        Out     0.754     8.540       -         
+next_N_5_mux                              Net       -        -       1.969     -           8         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     B        In      -         10.510      -         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     Y        Out     0.489     10.998      -         
+g_N_7_3                                   Net       -        -       0.969     -           3         
+Key_0.g_counter_r_RNO[4]                  OA1       B        In      -         11.967      -         
+Key_0.g_counter_r_RNO[4]                  OA1       Y        Out     1.084     13.051      -         
+g_N_3_mux_6                               Net       -        -       0.386     -           1         
+Key_0.g_counter_r[4]                      DFN1      D        In      -         13.437      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 14.085 is 5.863(41.6%) logic and 8.221(58.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      13.437
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -4.085
+
+    Number of logic level(s):                6
+    Starting point:                          Key_0.g_counter_r[6] / Q
+    Ending point:                            Key_0.g_counter_r[5] / D
+    The start point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                      Type      Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[6]                      DFN1      Q        Out     0.885     0.885       -         
+g_counter_r[6]                            Net       -        -       2.005     -           9         
+Key_0.g_counter_r_RNINHSI[7]              OR2       B        In      -         2.890       -         
+Key_0.g_counter_r_RNINHSI[7]              OR2       Y        Out     0.777     3.667       -         
+status_ns_0_0_o2_2_1[1]                   Net       -        -       0.386     -           1         
+Key_0.g_counter_r_RNII7P51[7]             OR2       A        In      -         4.053       -         
+Key_0.g_counter_r_RNII7P51[7]             OR2       Y        Out     0.610     4.663       -         
+N_236                                     Net       -        -       1.537     -           5         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     A        In      -         6.200       -         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     Y        Out     0.618     6.818       -         
+next_g_counter_r_1_sqmuxa_0_a3_a1_0       Net       -        -       0.969     -           3         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     A        In      -         7.787       -         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     Y        Out     0.754     8.540       -         
+next_N_5_mux                              Net       -        -       1.969     -           8         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     B        In      -         10.510      -         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     Y        Out     0.489     10.998      -         
+g_N_7_3                                   Net       -        -       0.969     -           3         
+Key_0.g_counter_r_RNO[5]                  OA1       B        In      -         11.967      -         
+Key_0.g_counter_r_RNO[5]                  OA1       Y        Out     1.084     13.051      -         
+g_N_3_mux_5                               Net       -        -       0.386     -           1         
+Key_0.g_counter_r[5]                      DFN1      D        In      -         13.437      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 14.085 is 5.863(41.6%) logic and 8.221(58.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      13.437
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -4.085
+
+    Number of logic level(s):                6
+    Starting point:                          Key_0.g_counter_r[6] / Q
+    Ending point:                            Key_0.g_counter_r[6] / D
+    The start point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                      Type      Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[6]                      DFN1      Q        Out     0.885     0.885       -         
+g_counter_r[6]                            Net       -        -       2.005     -           9         
+Key_0.g_counter_r_RNINHSI[7]              OR2       B        In      -         2.890       -         
+Key_0.g_counter_r_RNINHSI[7]              OR2       Y        Out     0.777     3.667       -         
+status_ns_0_0_o2_2_1[1]                   Net       -        -       0.386     -           1         
+Key_0.g_counter_r_RNII7P51[7]             OR2       A        In      -         4.053       -         
+Key_0.g_counter_r_RNII7P51[7]             OR2       Y        Out     0.610     4.663       -         
+N_236                                     Net       -        -       1.537     -           5         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     A        In      -         6.200       -         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     Y        Out     0.618     6.818       -         
+next_g_counter_r_1_sqmuxa_0_a3_a1_0       Net       -        -       0.969     -           3         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     A        In      -         7.787       -         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     Y        Out     0.754     8.540       -         
+next_N_5_mux                              Net       -        -       1.969     -           8         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     B        In      -         10.510      -         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     Y        Out     0.489     10.998      -         
+g_N_7_3                                   Net       -        -       0.969     -           3         
+Key_0.g_counter_r_RNO[6]                  OA1       B        In      -         11.967      -         
+Key_0.g_counter_r_RNO[6]                  OA1       Y        Out     1.084     13.051      -         
+g_N_3_mux_7                               Net       -        -       0.386     -           1         
+Key_0.g_counter_r[6]                      DFN1      D        In      -         13.437      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 14.085 is 5.863(41.6%) logic and 8.221(58.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      13.310
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -3.957
+
+    Number of logic level(s):                6
+    Starting point:                          Key_0.g_counter_r[9] / Q
+    Ending point:                            Key_0.g_counter_r[4] / D
+    The start point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                      Type      Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[9]                      DFN1      Q        Out     0.885     0.885       -         
+g_counter_r[9]                            Net       -        -       1.710     -           6         
+Key_0.g_counter_r_RNIRLSI[9]              OR2       B        In      -         2.595       -         
+Key_0.g_counter_r_RNIRLSI[9]              OR2       Y        Out     0.777     3.372       -         
+status_ns_0_0_o2_2_0[1]                   Net       -        -       0.386     -           1         
+Key_0.g_counter_r_RNII7P51[7]             OR2       B        In      -         3.759       -         
+Key_0.g_counter_r_RNII7P51[7]             OR2       Y        Out     0.777     4.535       -         
+N_236                                     Net       -        -       1.537     -           5         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     A        In      -         6.072       -         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     Y        Out     0.618     6.690       -         
+next_g_counter_r_1_sqmuxa_0_a3_a1_0       Net       -        -       0.969     -           3         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     A        In      -         7.659       -         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     Y        Out     0.754     8.413       -         
+next_N_5_mux                              Net       -        -       1.969     -           8         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     B        In      -         10.382      -         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     Y        Out     0.489     10.871      -         
+g_N_7_3                                   Net       -        -       0.969     -           3         
+Key_0.g_counter_r_RNO[4]                  OA1       B        In      -         11.840      -         
+Key_0.g_counter_r_RNO[4]                  OA1       Y        Out     1.084     12.924      -         
+g_N_3_mux_6                               Net       -        -       0.386     -           1         
+Key_0.g_counter_r[4]                      DFN1      D        In      -         13.310      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 13.957 is 6.030(43.2%) logic and 7.927(56.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      13.310
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -3.957
+
+    Number of logic level(s):                6
+    Starting point:                          Key_0.g_counter_r[9] / Q
+    Ending point:                            Key_0.g_counter_r[5] / D
+    The start point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            CLKGEN|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                      Type      Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+Key_0.g_counter_r[9]                      DFN1      Q        Out     0.885     0.885       -         
+g_counter_r[9]                            Net       -        -       1.710     -           6         
+Key_0.g_counter_r_RNIRLSI[9]              OR2       B        In      -         2.595       -         
+Key_0.g_counter_r_RNIRLSI[9]              OR2       Y        Out     0.777     3.372       -         
+status_ns_0_0_o2_2_0[1]                   Net       -        -       0.386     -           1         
+Key_0.g_counter_r_RNII7P51[7]             OR2       B        In      -         3.759       -         
+Key_0.g_counter_r_RNII7P51[7]             OR2       Y        Out     0.777     4.535       -         
+N_236                                     Net       -        -       1.537     -           5         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     A        In      -         6.072       -         
+Key_0.g_counter_r_RNIDA9D1[15]            NOR2B     Y        Out     0.618     6.690       -         
+next_g_counter_r_1_sqmuxa_0_a3_a1_0       Net       -        -       0.969     -           3         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     A        In      -         7.659       -         
+Key_0.g_counter_r_n13_i_o2_1_RNIJNLH1     NOR2A     Y        Out     0.754     8.413       -         
+next_N_5_mux                              Net       -        -       1.969     -           8         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     B        In      -         10.382      -         
+Key_0.g_counter_r_n13_i_o2_1_RNI8G3O4     NOR2A     Y        Out     0.489     10.871      -         
+g_N_7_3                                   Net       -        -       0.969     -           3         
+Key_0.g_counter_r_RNO[5]                  OA1       B        In      -         11.840      -         
+Key_0.g_counter_r_RNO[5]                  OA1       Y        Out     1.084     12.924      -         
+g_N_3_mux_5                               Net       -        -       0.386     -           1         
+Key_0.g_counter_r[5]                      DFN1      D        In      -         13.310      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 13.957 is 6.030(43.2%) logic and 7.927(56.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+--------------------------------------------------------------------------------
+Target Part: AGLN125V5_VQFP100_STD
+Report for cell top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     1      1.0        1.0
+               AO1     6      1.0        6.0
+              AO1A    16      1.0       16.0
+              AO1B     3      1.0        3.0
+              AO1C     1      1.0        1.0
+              AO1D     2      1.0        2.0
+              AOI1     1      1.0        1.0
+             AOI1B     5      1.0        5.0
+               AX1     4      1.0        4.0
+              AX1A     3      1.0        3.0
+              AX1C     4      1.0        4.0
+              AX1E     2      1.0        2.0
+               GND     8      0.0        0.0
+               INV     1      1.0        1.0
+               MX2     2      1.0        2.0
+              MX2B     4      1.0        4.0
+              NOR2     9      1.0        9.0
+             NOR2A    18      1.0       18.0
+             NOR2B    54      1.0       54.0
+              NOR3     8      1.0        8.0
+             NOR3A    28      1.0       28.0
+             NOR3B    36      1.0       36.0
+             NOR3C    63      1.0       63.0
+               OA1    24      1.0       24.0
+              OA1A    13      1.0       13.0
+              OA1B     3      1.0        3.0
+              OA1C    10      1.0       10.0
+               OR2    12      1.0       12.0
+              OR2A     8      1.0        8.0
+              OR2B    14      1.0       14.0
+               OR3     3      1.0        3.0
+              OR3A     3      1.0        3.0
+              OR3B     6      1.0        6.0
+              OR3C     7      1.0        7.0
+               PLL     1      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC     8      0.0        0.0
+               XA1    11      1.0       11.0
+              XA1A    14      1.0       14.0
+              XA1B     1      1.0        1.0
+              XA1C     1      1.0        1.0
+             XNOR2     6      1.0        6.0
+              XOR2     5      1.0        5.0
+
+
+              DFN1    82      1.0       82.0
+                   -----          ----------
+             TOTAL   512               494.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     5
+            OUTBUF     7
+                   -----
+             TOTAL    12
+
+
+Core Cells         : 494 of 3072 (16%)
+IO Cells           : 12
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 127MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Aug 31 16:40:27 2024
+
+###########################################################]

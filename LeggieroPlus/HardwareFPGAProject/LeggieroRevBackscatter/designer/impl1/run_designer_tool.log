@@ -1,0 +1,26 @@
+Microsemi Libero Software
+Version: 11.9.6.7
+Release: v11.9 SP6
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\designer'
+Info: The design top.adb was last modified by software version 11.9.6.7.
+Opened an existing Libero design top.adb.
+
+The Execute Script command succeeded ( 00:00:13 )
+Design saved to file
+C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\designer\impl1\top.adb.
+Wrote pin report to file:
+C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\designer\impl1\top_report_pin_byn\
+ame.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file:
+C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\designer\impl1\top_report_pin_byn\
+umber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

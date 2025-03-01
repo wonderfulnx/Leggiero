@@ -1,0 +1,8 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\key.v":27:0:27:5|Found counter in view:work.Key(verilog) instance g_counter_r[15:0] 
+@N: MO225 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\key.v":27:0:27:5|There are no possible illegal states for state machine status[3:0] (in view: work.Key(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\modulator.v":37:0:37:5|Found counter in view:work.modulator(verilog) instance clk_counter[31:0] 
+@N: MO231 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\pkt_dect.v":48:0:48:5|Found counter in view:work.PKT_DECT(verilog) instance g_counter_r[8:0] 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

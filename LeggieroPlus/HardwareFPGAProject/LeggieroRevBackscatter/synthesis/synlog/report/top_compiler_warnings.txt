@@ -1,0 +1,7 @@
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\ASWControl.v":27:0:27:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v":31:0:31:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":41:0:41:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\RFSWControl.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CL279 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Pruning register bits 15 to 9 of g_counter_r[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v":37:0:37:5|Pruning unused register current_status. Make sure that there are no unused intermediate registers.
+

@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevTest/simulation
+vASWControl
+Z0 !s110 1728937064
+!i10b 1
+!s100 dAN;X9j6HhT3O`G^f3U?51
+IlELdV<CUJ^Yjz7ERk]kFS0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/simulation
+w1716908063
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/ASWControl.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/ASWControl.v
+L0 22
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1728937064.000000
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/ASWControl.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/ASWControl.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 !s92 +incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl -vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
+n@a@s@w@control
+vCLKGEN
+R0
+!i10b 1
+!s100 a1C<=e=>Q^i:9_MbBUjXm0
+IS>leO@f^O8^;e`0617MGz1
+R1
+R2
+w1716902105
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/smartgen/CLKGEN/CLKGEN.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/smartgen/CLKGEN/CLKGEN.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/smartgen/CLKGEN/CLKGEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/smartgen/CLKGEN/CLKGEN.v|
+!s101 -O0
+!i113 1
+R5
+R6
+R7
+n@c@l@k@g@e@n
+vKey
+R0
+!i10b 1
+!s100 M^XKCWDhCeESVkDjCM^1Q2
+IGdD`bPVVN45XD^X2gEB`M2
+R1
+R2
+w1719829053
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Key.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Key.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Define.v|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Key.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Key.v|
+!s101 -O0
+!i113 1
+R5
+R6
+R7
+n@key
+vmodulator
+Z8 !s110 1728937065
+!i10b 1
+!s100 EQbMWL>31:5Oc9cMbgd=J3
+IBzhP^`]mOjzb08Vb9Q?fj1
+R1
+R2
+w1719851704
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Modulator.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Modulator.v
+Z9 L0 21
+R3
+r1
+!s85 0
+31
+Z10 !s108 1728937065.000000
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Modulator.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Modulator.v|
+!s101 -O0
+!i113 1
+R5
+R6
+R7
+vPKT_DECT
+R0
+!i10b 1
+!s100 <e08ELjMGWj:[d2Ka<=DE2
+IL<IgVFzgREBU6FKY_ET>K0
+R1
+R2
+w1725093562
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/PKT_DECT.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/PKT_DECT.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/PKT_DECT.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/PKT_DECT.v|
+!s101 -O0
+!i113 1
+R5
+R6
+R7
+n@p@k@t_@d@e@c@t
+vRFSWControl
+R0
+!i10b 1
+!s100 PF8Q73[2_kaUZf5=`70G71
+IGdQVi@Db<=Dh]6anU42:00
+R1
+R2
+w1719318695
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/RFSWControl.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/RFSWControl.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/RFSWControl.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/RFSWControl.v|
+!s101 -O0
+!i113 1
+R5
+R6
+R7
+n@r@f@s@w@control
+vtop
+R8
+!i10b 1
+!s100 FF[iKE@^__ni4S_7Vhz`>3
+I1WdL[;R3oH3VcELkWPJEl2
+R1
+R2
+w1725093619
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top/top.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top/top.v
+L0 9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top/top.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top/top.v|
+!s101 -O0
+!i113 1
+R5
+R6
+R7
+vtop_tb
+R8
+!i10b 1
+!s100 6fIa>c0AmC]z1dReJ^a<Q2
+IJ5iYWOPYZS>aVfclKhFO`0
+R1
+R2
+w1716905336
+8C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus/top_tb.v
+FC:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus/top_tb.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl|+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus|-vlog01compat|-work|presynth|C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl +incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus -vlog01compat -work presynth -O0
+R7

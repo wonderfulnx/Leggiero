@@ -1,0 +1,26 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\ASWControl.v":22:7:22:16|Synthesizing module ASWControl in library work.
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\smartgen\CLKGEN\CLKGEN.v":5:7:5:12|Synthesizing module CLKGEN in library work.
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v":3:7:3:9|Synthesizing module Key in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v":21:7:21:15|Synthesizing module modulator in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":21:7:21:14|Synthesizing module PKT_DECT in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\RFSWControl.v":21:7:21:17|Synthesizing module RFSWControl in library work.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[9] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[10] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[11] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[12] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[13] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[14] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[15] is always 0.
+@N: CL201 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Trying to extract state machine for register status.
+@N: CL201 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v":27:0:27:5|Trying to extract state machine for register status.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,16 @@
+Project Name: LeggieroRevTest
+Location: C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevTest
+Description: A simple HDL for testing leggiero rev board.
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : AGLN125V5-VQ100
+Family         : IGLOO
+Die            : AGLN125V5
+Package        : 100 VQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

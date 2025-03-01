@@ -1,0 +1,97 @@
+# Reading C:/Program Files (x86)/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap igloo C:/Program Files (x86)/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/igloo 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:44 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/ASWControl.v 
+# -- Compiling module ASWControl
+# 
+# Top level modules:
+# 	ASWControl
+# End time: 04:17:44 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:44 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/smartgen/CLKGEN/CLKGEN.v 
+# -- Compiling module CLKGEN
+# 
+# Top level modules:
+# 	CLKGEN
+# End time: 04:17:44 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:44 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Key.v 
+# -- Compiling module Key
+# 
+# Top level modules:
+# 	Key
+# End time: 04:17:44 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:44 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/PKT_DECT.v 
+# -- Compiling module PKT_DECT
+# 
+# Top level modules:
+# 	PKT_DECT
+# End time: 04:17:44 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:44 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/RFSWControl.v 
+# -- Compiling module RFSWControl
+# 
+# Top level modules:
+# 	RFSWControl
+# End time: 04:17:44 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:45 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl/Modulator.v 
+# -- Compiling module modulator
+# 
+# Top level modules:
+# 	modulator
+# End time: 04:17:45 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:45 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 04:17:45 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 04:17:45 on Oct 15,2024
+# vlog -reportprogress 300 "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/hdl" "+incdir+C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus" -vlog01compat -work presynth C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/stimulus/top_tb.v 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 04:17:45 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L igloo -L presynth -t 1ps presynth.top_tb 
+# Start time: 04:17:45 on Oct 15,2024
+# ** License Issue: License request for actelmsimvlog feature failed
+# ** License Issue: Cannot find license file. (C:\Users\NaXin\Downloads\License.dat)
+# ** License Issue: Invalid (inconsistent) license key. (C:\flexlm\LICENSE.TXT)
+# ** License Issue: Invalid (inconsistent) license key. (C:\flexlm\LICENSE.TXT)
+# ** License Issue: Cannot checkout an uncounted license within a Windows Terminal Services guest session. (C:\Program Files\Microchip\License\DiskID_License.dat)
+# ** License Issue: Cannot find license file. (C:\Program Files\Microchip\License\Floating_License.dat)
+# ** License Issue: Cannot find license file. (C:\flexlm\license.dat)
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout 'actelmsimvlog' license feature.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 22
+# End time: 04:17:54 on Oct 15,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

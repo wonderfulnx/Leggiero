@@ -1,0 +1,33 @@
+
+fsm_encoding {7270272} sequential
+
+fsm_state_encoding {7270272} NO_PRESSED {00}
+
+fsm_state_encoding {7270272} PRESSING {01}
+
+fsm_state_encoding {7270272} NO_PRESSING {10}
+
+fsm_state_encoding {7270272} PRESSED {11}
+
+fsm_registers {7270272} {status[1]}  {status[0]} 
+
+fsm_encoding {9480481} sequential
+
+fsm_state_encoding {9480481} NO_PACKET {00}
+
+fsm_state_encoding {9480481} IN_TO_NO_PACKET {01}
+
+fsm_state_encoding {9480481} IN_PACKET {10}
+
+fsm_registers {9480481} {status[1]}  {status[0]} 
+ers {7270272} {status[1]}  {status[0]} 
+
+fsm_encoding {9480481} sequential
+
+fsm_state_encoding {9480481} NO_PACKET {00}
+
+fsm_state_encoding {9480481} IN_TO_NO_PACKET {01}
+
+fsm_state_encoding {9480481} IN_PACKET {10}
+
+fsm_registers {9480481} {status[1]}  {status[0]} 

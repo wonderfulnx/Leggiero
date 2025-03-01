@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN225 |Writing default property annotation file C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\synthesis\top.sap.
+@N: MO225 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\key.v":27:0:27:5|There are no possible illegal states for state machine status[3:0] (in view: work.Key_1(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\key.v":27:0:27:5|There are no possible illegal states for state machine status[3:0] (in view: work.Key_0(verilog)); safe FSM implementation is not required.

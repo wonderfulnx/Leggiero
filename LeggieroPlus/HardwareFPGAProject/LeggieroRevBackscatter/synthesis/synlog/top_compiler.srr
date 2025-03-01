@@ -1,0 +1,106 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v" (library work)
+@I::"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\ASWControl.v" (library work)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\smartgen\CLKGEN\CLKGEN.v" (library work)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v" (library work)
+@I:"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v":"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Define.v" (library work)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v" (library work)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\RFSWControl.v" (library work)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v" (library work)
+@I::"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+File C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\component\work\top\top.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\ASWControl.v":22:7:22:16|Synthesizing module ASWControl in library work.
+
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\ASWControl.v":27:0:27:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\smartgen\CLKGEN\CLKGEN.v":5:7:5:12|Synthesizing module CLKGEN in library work.
+
+@N: CG364 :"C:\Program Files (x86)\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v":3:7:3:9|Synthesizing module Key in library work.
+
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v":21:7:21:15|Synthesizing module modulator in library work.
+
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v":31:0:31:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":21:7:21:14|Synthesizing module PKT_DECT in library work.
+
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":41:0:41:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\RFSWControl.v":21:7:21:17|Synthesizing module RFSWControl in library work.
+
+@W: CG532 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\RFSWControl.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG364 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[9] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[10] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[11] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[12] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[13] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[14] is always 0.
+@N: CL189 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Register bit g_counter_r[15] is always 0.
+@W: CL279 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Pruning register bits 15 to 9 of g_counter_r[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v":48:0:48:5|Trying to extract state machine for register status.
+Extracted state machine for register status
+State machine has 3 reachable states with original encodings of:
+   00
+   10
+   11
+@W: CL169 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v":37:0:37:5|Pruning unused register current_status. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v":27:0:27:5|Trying to extract state machine for register status.
+Extracted state machine for register status
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Aug 31 16:40:23 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Aug 31 16:40:23 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 4MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Aug 31 16:40:23 2024
+
+###########################################################]

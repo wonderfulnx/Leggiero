@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>top</header>
+  <project-settings>
+    <fam>IGLOO</fam>
+    <die>AGLN125V5</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>A simple HDL for testing leggiero rev board.</project-description>
+    <location>C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/component/work/top</location>
+    <state>GENERATED ( Sat Aug 31 16:40:19 2024 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\component\work\top\top.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\ASWControl.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Define.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Key.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\Modulator.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\PKT_DECT.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\hdl\RFSWControl.v</file>
+    <file>C:\Users\NaXin\Documents\THU\LiberoSoC\LeggieroRevBackscatter\smartgen\CLKGEN\CLKGEN.v</file>
+  </fileset>
+  <io>
+    <port-name>BTN0</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>RSTBTN</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>DECT_IN</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>CLKA</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>LED1</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>RFSWB</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>DECT_OUT</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>ASWSEL</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>EDEN</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>BTN1</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>RFSWA</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>LED2</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND2</core-exttype>
+    <core-name>AND2_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>ASWControl</core-exttype>
+    <core-location>hdl\ASWControl.v</core-location>
+    <core-name>ASWControl_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/NaXin/Documents/THU/LiberoSoC/LeggieroRevBackscatter/smartgen/CLKGEN</core-location>
+    <core-name>CLKGEN_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INV</core-exttype>
+    <core-name>INV_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>Key</core-exttype>
+    <core-location>hdl\Key.v</core-location>
+    <core-name>Key_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>Key</core-exttype>
+    <core-location>hdl\Key.v</core-location>
+    <core-name>Key_1</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>modulator</core-exttype>
+    <core-location>hdl\Modulator.v</core-location>
+    <core-name>modulator_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>PKT_DECT</core-exttype>
+    <core-location>hdl\PKT_DECT.v</core-location>
+    <core-name>PKT_DECT_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>RFSWControl</core-exttype>
+    <core-location>hdl\RFSWControl.v</core-location>
+    <core-name>RFSWControl_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for top</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

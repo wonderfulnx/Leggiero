@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\naxin\documents\thu\liberosoc\leggierorevbackscatter\hdl\aswcontrol.v":31:0:31:5|Found inferred clock CLKGEN|GLA_inferred_clock which controls 87 sequential elements including ASWControl_0.ASW. This clock has no specified timing constraint which may adversely impact design performance. 

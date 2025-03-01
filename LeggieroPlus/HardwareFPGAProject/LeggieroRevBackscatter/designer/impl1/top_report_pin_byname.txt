@@ -1,0 +1,31 @@
+*****************************************************************
+Pin Report - Date: Sat Aug 31 16:41:14 2024 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Design Name: top
+Family: IGLOO
+Die: AGLN125V5
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Port     |Pin |Fixed |Function       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+---------|----|------|---------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+ASWSEL    6    Yes    GAC2/IO131RSB1  LVCMOS33  8                  High  None           5                 No           No             ---              No
+BTN0      98   Yes    GAB0/IO02RSB0   LVCMOS33  ---                ---   None           ---               No           No             No               No
+BTN1      97   Yes    GAB1/IO03RSB0   LVCMOS33  ---                ---   None           ---               No           No             No               No
+CLKA      11   Yes    GFB0/IO123RSB1  LVCMOS33  ---                ---   None           ---               No           No             No               No
+DECT_IN   3    Yes    IO68RSB1        LVCMOS33  ---                ---   None           ---               No           No             No               No
+DECT_OUT  96   Yes    GAC0/IO04RSB0   LVCMOS33  8                  High  None           5                 No           No             ---              No
+EDEN      5    Yes    IO132RSB1       LVCMOS33  8                  High  None           5                 No           No             ---              No
+LED1      100  Yes    GAA0/IO00RSB0   LVCMOS33  8                  High  None           5                 No           No             ---              No
+LED2      99   Yes    GAA1/IO01RSB0   LVCMOS33  8                  High  None           5                 No           No             ---              No
+RFSWA     4    Yes    GAB2/IO69RSB1   LVCMOS33  8                  High  None           5                 No           No             ---              No
+RFSWB     2    Yes    GAA2/IO67RSB1   LVCMOS33  8                  High  None           5                 No           No             ---              No
+RSTBTN    13   Yes    GFA0/IO122RSB1  LVCMOS33  ---                ---   None           ---               No           No             No               No
